@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.so
+*.pyo
+*.pyd
+__pycache__/
+
+# SQLite database file (if applicable)
+*.sqlite3
+
+# If you're using Flask, exclude the instance folder
+instance/
+
+# Local environment variables
+.env
+
+# Cache files and directories
+*.log
+*.out
+*.pid
+*.gz
+*.tgz
+*.zip
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# pip environment
+pip-selfcheck.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS-specific files
+.DS_Store
+
+# Python package files
+*.egg
+*.egg-info/
+.installed.cfg
+*.whl
+
+# pytest cache files
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
